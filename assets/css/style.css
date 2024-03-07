@@ -1,0 +1,129 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: url(/img/bg.gif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#calculator-container {
+    max-width: 320px;
+    width: 375px;
+    height: 550px;
+    background-color: #bf3842;
+    margin: auto;
+    padding: 15px;
+    top: 37px;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0 8px 10px 0 rgba(171, 132, 255, 0.405), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result-container {
+    height: 120px;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: #a0b1b1; 
+    font-size: fit-content;
+    overflow: scroll;
+}
+
+#history-container {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #102357; 
+}
+
+#result-container::-webkit-scrollbar {
+    display: none;
+}
+
+#history-container::-webkit-scrollbar {
+    display: none;
+}
+
+#output-container {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: #034a69; 
+}
+
+#keyboard-container {
+    height: 400px;
+    background-color: #254351;
+    border-radius: 7px;
+}
+
+.calc-button,
+.empty-button {
+    color:#ffffff;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    float: center;
+    border-radius: 8px;
+    border-width: 3px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.5s ease-out; 
+}
+
+.calc-button,
+.empty-button {
+    background-color: #437c8e; 
+}
+
+.calc-button:hover, 
+.empty-button:hover {
+    transform: scale(1.1); 
+}
+
+.calc-button,
+.calc-button:active,
+.calc-button:focus,
+.empty-button,
+.empty-button:active,
+.empty-button:focus {
+    cursor: pointer;
+    outline: 0;
+}
+
+.calc-button:active,
+.empty-button:active {
+    font-size: 13px;
+}
+
+.calc-button:nth-child(4) {
+    font-size: 20px;
+    background-color: #ec4556; 
+}
+
+.calc-button:nth-child(8) {
+    font-size: 20px;
+    background-color: #a0b1b1; 
+}
+
+.calc-button:nth-child(12) {
+    font-size: 20px;
+    background-color: #ec4556; 
+}
+
+.calc-button:nth-child(16) {
+    font-size: 20px;
+    background-color: #a0b1b1; 
+}
+
+.calc-button:nth-child(20) {
+    font-size: 20px;
+    background-color: #ec4556; 
+}
+
